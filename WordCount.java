@@ -78,7 +78,7 @@ public class WordCount {
     public static void main(String[] args) {
         Trie trie = new Trie();
         try {
-            processFile("C:\\Users\\LENOVO\\Desktop\\pavan\\myfirstproject\\src\\100MB Text File.txt", trie);
+            processFile("C:\\Users\\LENOVO\\Desktop\\pavan\\myfirstproject\\src\\sample3.txt", trie);
             emitWordCounts(trie);
         } catch (IOException e) {
             e.printStackTrace();
